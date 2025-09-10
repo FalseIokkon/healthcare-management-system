@@ -1,5 +1,5 @@
 public class User{
-	private String id;
+	private int id;
 	private String username;
 	private String password;
 	private String firstName;
@@ -8,7 +8,7 @@ public class User{
 	private String phoneNumber;
 	private String role;
 
-	public User(String id, String username, String password, String firstName, String lastName, 
+	public User(int id, String username, String password, String firstName, String lastName, 
 				String email, String phoneNumber, String role){
 		this.id = id;
 		this.username = username;
@@ -20,7 +20,18 @@ public class User{
 		this.role = role;
 	}
 
-	public String getId(){
+	public User(){
+		this.id = 1;
+		this.username = "jdoe01";
+		this.password = "password";
+		this.firstName = "John";
+		this.lastName = "Doe";
+		this.email = "john.doe@gmail.com";
+		this.phoneNumber = "626-200-3000";
+		this.role = "Blank";
+	}
+
+	public int getId(){
 		return id;
 	}
 	public String getUsername(){
