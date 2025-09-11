@@ -4,6 +4,8 @@ public class Test {
 
         User testUser = new User();
         System.out.println(testUser.getFirstName() + " " + testUser.getLastName());
+
+        
     }
 
 }
