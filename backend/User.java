@@ -18,7 +18,7 @@ public class User{
 		this.email = email;
 		this.phoneNumber = phoneNumber;
 		this.role = role;
-	}
+	} 
 
 	public User(){
 		this.id = 1;
