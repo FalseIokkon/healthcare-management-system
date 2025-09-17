@@ -5,7 +5,7 @@ public class HealthcareTeam extends User{
 	String specialization;
 	ArrayList<Appointment> appointments;
 
-	//constructor that inherits from user class, role is Doctos
+	//constructor that inherits from user class, role is Doctors
 	public HealthcareTeam(int id, String username, String password, String firstName, String lastName, 
 				String email, String phoneNumber, String doctorId, String specialization, ArrayList<Appointment> appointments){
 		super(id, username, password, "Doctor", firstName, lastName, email, phoneNumber);
