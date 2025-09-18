@@ -1,3 +1,5 @@
+package com.healthcare;
+
 public class Patient{
 	private int patientId;
 	private String firstName;

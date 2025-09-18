@@ -1,3 +1,5 @@
+package com.healthcare;
+
 import java.util.ArrayList;
 
 public class HealthcareTeam extends User{
