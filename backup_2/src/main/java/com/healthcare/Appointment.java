@@ -19,6 +19,17 @@ public class Appointment {
         this.location = location;
     }
 
+
+
+    public String toString() {
+        return "Appointment{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", startTime=" + startTime +
+                ", endTime=" + endTime +
+                ", location='" + location + '\'' +
+                '}';
+    }
 }
 
 
